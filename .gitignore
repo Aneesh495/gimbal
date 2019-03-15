@@ -1,0 +1,23 @@
+# Build outputs
+build/
+bin/
+*.o
+*.a
+*.so
+*.dylib
+*.out
+
+# Python artifacts
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Editor and OS
+.DS_Store
+*.swp
+*~
+.vscode/
+.idea/
