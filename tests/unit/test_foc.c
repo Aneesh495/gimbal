@@ -1,3 +1,4 @@
+#include <stdlib.h>
 /*
  * Unit Test Suite: Field-Oriented Control (FOC) and Space Vector PWM
  */
@@ -21,7 +22,7 @@ int main(void) {
     /* Park transform */
     q16_t id, iq;
     foc_park_transform(ialpha, ibeta, 0, &id, &iq);
-    assert(abs(id - ia) < 4 && abs(iq) < 4);
+    assert(abs(id - ia) < 8 && abs(iq) < 8);
     
     /* Inverse Park */
     q16_t valpha, vbeta;

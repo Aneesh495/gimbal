@@ -1,3 +1,4 @@
+#include <stdlib.h>
 /*
  * Unit Test Suite: Error-State Extended Kalman Filter (ES-EKF)
  */

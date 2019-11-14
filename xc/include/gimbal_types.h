@@ -3,6 +3,7 @@
 
 #include <stdint.h>
 #include <stdbool.h>
+#include <stddef.h>
 
 #define GIMBAL_AXIS_PAN   0
 #define GIMBAL_AXIS_TILT  1

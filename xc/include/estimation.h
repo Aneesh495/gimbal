@@ -2,6 +2,7 @@
 #define GIMBAL_ESTIMATION_H
 
 #include "gimbal_types.h"
+#include "gimbal_channels.h"
 #include "vector3.h"
 #include "matrix3x3.h"
 #include "quaternion.h"

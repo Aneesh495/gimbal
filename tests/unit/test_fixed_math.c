@@ -1,3 +1,4 @@
+#include <stdlib.h>
 /*
  * Unit Test Suite: Fixed-Point Arithmetic and CORDIC Precision
  */

@@ -4,6 +4,7 @@
  */
 
 #include "fdir.h"
+#include "fixed_math.h"
 
 void limit_checker_init(limit_checker_t *lc) {
     if (!lc) return;

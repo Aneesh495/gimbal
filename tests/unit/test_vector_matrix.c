@@ -1,3 +1,4 @@
+#include <stdlib.h>
 /*
  * Unit Test Suite: 3D Vector Algebra and 3x3 Matrix Routines
  */
@@ -24,7 +25,7 @@ int main(void) {
     assert(fabs(q16_to_float(mag) - 5.0f) < 0.01f);
     
     /* Matrix operations */
-    mat3_q16_t I = mat3_identity();
+    mat3_q16_t I = mat3_identity(); (void)I;
     mat3_q16_t A = mat3_from_euler_zyx(q16_from_float(0.5f), q16_from_float(0.2f), q16_from_float(-0.3f));
     mat3_q16_t A_inv;
     bool inv_ok = mat3_inverse(A, &A_inv);

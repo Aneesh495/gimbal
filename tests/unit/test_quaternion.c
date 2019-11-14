@@ -1,3 +1,4 @@
+#include <stdlib.h>
 /*
  * Unit Test Suite: SO(3) Unit Quaternion Kinematics and Interpolation
  */

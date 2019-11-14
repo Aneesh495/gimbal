@@ -1,3 +1,4 @@
+#include <stdlib.h>
 /*
  * Regression Test Suite: Singularities, Wrap-Arounds, and Hardware Faults
  */

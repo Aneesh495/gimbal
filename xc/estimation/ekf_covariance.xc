@@ -6,6 +6,7 @@
 #include "estimation.h"
 
 void ekf_cov_predict(q16_t P[6][6], const q16_t F[6][6], const q16_t Q_diag[6], q16_t dt) {
+    (void)dt;
     q16_t FP[6][6];
     
     /* FP = F * P */
